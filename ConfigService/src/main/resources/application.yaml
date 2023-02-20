@@ -1,0 +1,14 @@
+server:
+  port: 8095
+  
+spring:
+  application:
+    name: CONFIG-SERVICE
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sachinsude04/MicroConfigService
+          clone-on-start: true
+              
